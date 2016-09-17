@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#index-nav {
+  background-color: #333;
+  height: 25px; }
+
+#index-nav > div {
+  color: white; }
+
+div.left {
+  float: left; }
+
+div.right {
+  float: right; }
