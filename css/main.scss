@@ -29,22 +29,51 @@ $on-laptop:        800px;
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  text-align: center;
 }
+
+/* Navigation */
 
 #index-nav {
-  background-color: #333;
-  height: 25px;
+  background-color: #ECF0F1;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-#index-nav > div {
-  color: white;
+#index-nav > a {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+  font-weight: bold;
 }
 
-div.left {
-  float: left;
+/* Sections */
+.section-jumbotron {
+  background-image: url("../images/footer_lodyas.png");
+  height: 92.5vh;
 }
 
-div.right {
-  
-  float: right;
+.welcome-info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  margin: 0 auto;
+  background-color: #ECF0F1;
+  width: 500px;
+}
+
+.section-about {
+  //height: 300px;
+}
+
+.section-projects {
+  //height: 300px;
+}
+
+.section-contact {
+  //height: 300px;
 }
