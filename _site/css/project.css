@@ -1,0 +1,22 @@
+/* Project Page CSS */
+.project-section {
+    background-color: #ECF0F1;
+}
+
+.project-section .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+.project-section .project-title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.process-paragraph {
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
