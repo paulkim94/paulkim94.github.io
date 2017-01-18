@@ -22,6 +22,8 @@
 
   <!-- Personal CSS -->
   <link rel="stylesheet" href="/css/portfolio.css">
+  <link rel="stylesheet" href="/css/project.css">
+
   <link rel="canonical" href="http://example.com/">
   <link rel="alternate" type="application/rss+xml" title="Paul Kim&#39;s Portfolio" href="http://example.com/feed.xml">
 
@@ -35,17 +37,20 @@
     <div class="container">
         <!-- Brand -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="portfolio.html">Paul Kim</a>
+            <a class="navbar-brand" href="index.html">Paul Kim</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#about">About</a>
+                    <a href="index.html#about">About</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="index.html#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="CSResume.pdf" target="_blank">Resume</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -74,30 +79,31 @@
     </div>
 </header>
 
-    <section id="about">
+<section id="about">
     <div class="container text-center">
         <div class="section-title">About</div>
         <div class="row">
             <div class="col-sm-4 education">
                 <img src="img/education.jpg" class="img-responsive" alt="">
                 <h3>Education</h3>
-                <span>UC San Diego<br>Computer Science B.S.<br>GPA | 3.19<br>Expected Graduation | June 2017</span>
+                <span>UC San Diego<br>Computer Science B.S.<br>GPA | 3.2<br>Expected Graduation | June 2017</span>
             </div>
             <div class="col-sm-4 skills">
-                <img src="img/skills.jpeg" class="img-responsive" alt="">
+                <img src="img/skills.jpg" class="img-responsive" alt="">
                 <h3>Skills</h3>
                 <span>Languages | Java, C/C++, HTML, JavaScript, CSS<br>
                 Tools | GitHub, Eclipse, Atom/Sublime, Bootstrap, jQuery, Node.js<br>
                 User Experience | Prototyping, Storyboarding, Wireframing, Needfinding, A/B Testing, Information Architecture</span>
             </div>
             <div class="col-sm-4 experience">
-                <img src="img/experience.jpeg" class="img-responsive" alt="">
+                <img src="img/experience.jpg" class="img-responsive" alt="">
                 <h3>Experience</h3>
                 <span>Intuit | Software Engineering in Quality Intern (Summer 2016)</span>
             </div>
         </div>
     </div>
 </section>
+
 <!-- Projects Grid Section -->
 <section id="projects">
     <div class="container text-center">
@@ -115,7 +121,7 @@
             <div class="col-sm-4 project2">
                 <a href="virtuevice.html" class="project-link">
                     <div class="img-container">
-                        <img src="img/virtuevice.jpg" class="img-responsive" id="vv" alt="">
+                        <img src="img/virtue-vice.jpg" class="img-responsive" id="vv" alt="">
                     </div>
                     <div class="project-title">Virtue / Vice</div>
                     <button type="button" class="btn btn-default learn-button">Learn More</button>

@@ -22,6 +22,8 @@
 
   <!-- Personal CSS -->
   <link rel="stylesheet" href="/css/portfolio.css">
+  <link rel="stylesheet" href="/css/project.css">
+
   <link rel="canonical" href="http://example.com/jekyll/update/2016/09/15/welcome-to-jekyll.html">
   <link rel="alternate" type="application/rss+xml" title="Paul Kim&#39;s Portfolio" href="http://example.com/feed.xml">
 
@@ -35,17 +37,20 @@
     <div class="container">
         <!-- Brand -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="portfolio.html">Paul Kim</a>
+            <a class="navbar-brand" href="index.html">Paul Kim</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#about">About</a>
+                    <a href="index.html#about">About</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="index.html#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="CSResume.pdf" target="_blank">Resume</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -57,95 +62,33 @@
     <!-- /.container-fluid -->
 </nav>
 
-    <!-- Header -->
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="name">Paul Kim</span>
-                    <span class="role">Software Engineer<br>Web Developer</span>
-                    <div class="objective">I'm currently an undergraduate at the University of California, San Diego majoring in Computer Science.
-                    I'm interested in software engineering, web development, and user experience design. My goal's to obtain a position relevant to my interests
-                    and use my job as a platform to develop technological solutions for ongoing problems.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <section id="about">
-    <div class="container text-center">
-        <div class="section-title">About</div>
-        <div class="row">
-            <div class="col-sm-4 education">
-                <img src="img/education.jpg" class="img-responsive" alt="">
-                <h3>Education</h3>
-                <span>UC San Diego<br>Computer Science B.S.<br>GPA | 3.19<br>Expected Graduation | June 2017</span>
-            </div>
-            <div class="col-sm-4 skills">
-                <img src="img/skills.jpeg" class="img-responsive" alt="">
-                <h3>Skills</h3>
-                <span>Languages | Java, C/C++, HTML, JavaScript, CSS<br>
-                Tools | GitHub, Eclipse, Atom/Sublime, Bootstrap, jQuery, Node.js<br>
-                User Experience | Prototyping, Storyboarding, Wireframing, Needfinding, A/B Testing, Information Architecture</span>
-            </div>
-            <div class="col-sm-4 experience">
-                <img src="img/experience.jpeg" class="img-responsive" alt="">
-                <h3>Experience</h3>
-                <span>Intuit | Software Engineering in Quality Intern (Summer 2016)</span>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Projects Grid Section -->
-<section id="projects">
-    <div class="container text-center">
-        <div class="section-title">Projects</div>
-        <div class="row">
-            <div class="col-sm-4 project1">
-                <a href="piggy.html" class="project-link">
-                    <div class="img-container">
-                        <img src="img/piggy.jpg" class="img-responsive images" id="piggy" alt="">
-                    </div>
-                    <div class="project-title">Piggy</div>
-                    <button type="button" class="btn btn-default learn-button">Learn More</button>
-                </a>
-            </div>
-            <div class="col-sm-4 project2">
-                <a href="virtuevice.html" class="project-link">
-                    <div class="img-container">
-                        <img src="img/virtuevice.jpg" class="img-responsive" id="vv" alt="">
-                    </div>
-                    <div class="project-title">Virtue / Vice</div>
-                    <button type="button" class="btn btn-default learn-button">Learn More</button>
-                </a>
-            </div>
-            <div class="col-sm-4 project3">
-                <a href="music-redesign.html" class="project-link">
-                    <div class="img-container">
-                        <img src="img/187a.png" class="img-responsive" id="final187a" alt="">
-                    </div>
-                    <div class="project-title">Music App Redesign</div>
-                    <button type="button" class="btn btn-default learn-button">Learn More</button>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Contact -->
-<section id="contact">
-    <div class="container text-center">
-        <div class="section-title">Contact</div>
-        <div class="row">
-          <i class="fa fa-envelope-o" aria-hidden="true"></i> paulkimx94@gmail.com
-          <br>
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i> linkedin.com/in/paulkim94
-          <br>
-          <i class="fa fa-github-square" aria-hidden="true"></i> github.com/paulkim7
-        </div>
-    </div>
-</section>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
+    <p class="post-meta"><time datetime="2016-09-15T13:55:16-07:00" itemprop="datePublished">Sep 15, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+  </div>
+
+  
+</article>
 
     <!-- Footer -->
 <footer class="text-center">
