@@ -74,20 +74,20 @@ header .intro-text .name {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 5em; }
+  font-size: 4em; }
 
 header .intro-text .role {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 3em; }
+  font-size: 2em; }
 
 header .intro-text .objective {
   padding-top: 20px;
   margin: 0 auto;
   width: 550px;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 300; }
 
 .learn-button {
