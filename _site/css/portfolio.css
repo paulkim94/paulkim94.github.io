@@ -137,6 +137,29 @@ header .intro-text .objective {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+/* Add a hover effect if you want */
+.fa-linkedin:hover {
+  opacity: 0.7; }
+
+.fa-linkedin {
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background: black;
+  color: white; }
+
+.fa-github:hover {
+  opacity: 0.7; }
+
+.fa-github {
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background: black;
+  color: white; }
+
 /* Footer */
 footer {
   color: white; }
